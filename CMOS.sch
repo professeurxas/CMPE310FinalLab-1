@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6550 3600 2    50   Input ~ 0
-WE
 $Comp
 L 28F010:28F010 U?
 U 1 1 6077AE01
 P 4350 3500
+AR Path="/60932B97/6077AE01" Ref="U?"  Part="1" 
+AR Path="/609335AA/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933626/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933663/6077AE01" Ref="U?"  Part="1" 
+AR Path="/609336E4/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933746/6077AE01" Ref="U?"  Part="1" 
+AR Path="/6093376C/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933796/6077AE01" Ref="U?"  Part="1" 
+AR Path="/609337D8/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933813/6077AE01" Ref="U?"  Part="1" 
+AR Path="/6093381E/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933824/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60933850/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60972486/6077AE01" Ref="U?"  Part="1" 
+AR Path="/60982F5E/6077AE01" Ref="U?"  Part="1" 
+AR Path="/609832D6/6077AE01" Ref="U?"  Part="1" 
+AR Path="/609857FB/6077AE01" Ref="U?"  Part="1" 
 F 0 "U?" H 5450 3887 60  0000 C CNN
 F 1 "28F010" H 5450 3781 60  0000 C CNN
 F 2 "28F010" H 5450 3740 60  0001 C CNN
@@ -88,7 +103,7 @@ Entry Wire Line
 Wire Bus Line
 	6850 5300 3900 5300
 Text HLabel 3900 3500 0    50   Input ~ 0
-A[0:16]
+A[0..16]
 Text Label 4350 3600 2    50   ~ 0
 A16
 Text Label 4350 3700 2    50   ~ 0
@@ -121,8 +136,6 @@ Text Label 6550 4100 0    50   ~ 0
 A9
 Text Label 6550 4200 0    50   ~ 0
 A11
-Text HLabel 6550 4300 2    50   Input ~ 0
-OE
 Text Label 6550 4400 0    50   ~ 0
 A10
 Wire Wire Line
@@ -188,11 +201,28 @@ Wire Wire Line
 Wire Wire Line
 	6700 4600 6550 4600
 Text HLabel 3950 4600 0    50   BiDi ~ 0
-D[0:7]
+D[0..7]
 $Comp
 L power:VCC #PWR?
 U 1 1 609102A2
 P 6550 3500
+AR Path="/60932B97/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/609335AA/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933626/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933663/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/609336E4/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933746/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/6093376C/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933796/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/609337D8/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933813/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/6093381E/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933824/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60933850/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60972486/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/60982F5E/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/609832D6/609102A2" Ref="#PWR?"  Part="1" 
+AR Path="/609857FB/609102A2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6550 3350 50  0001 C CNN
 F 1 "VCC" V 6565 3628 50  0000 L CNN
 F 2 "" H 6550 3500 50  0001 C CNN
@@ -204,6 +234,23 @@ $Comp
 L power:VPP #PWR?
 U 1 1 6091583A
 P 4350 3500
+AR Path="/60932B97/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/609335AA/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933626/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933663/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/609336E4/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933746/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/6093376C/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933796/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/609337D8/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933813/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/6093381E/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933824/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60933850/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60972486/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/60982F5E/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/609832D6/6091583A" Ref="#PWR?"  Part="1" 
+AR Path="/609857FB/6091583A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4350 3350 50  0001 C CNN
 F 1 "VPP" V 4365 3627 50  0000 L CNN
 F 2 "" H 4350 3500 50  0001 C CNN
@@ -215,6 +262,23 @@ $Comp
 L power:VSS #PWR?
 U 1 1 60916F00
 P 4350 5000
+AR Path="/60932B97/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/609335AA/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933626/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933663/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/609336E4/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933746/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/6093376C/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933796/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/609337D8/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933813/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/6093381E/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933824/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60933850/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60972486/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/60982F5E/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/609832D6/60916F00" Ref="#PWR?"  Part="1" 
+AR Path="/609857FB/60916F00" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4350 4850 50  0001 C CNN
 F 1 "VSS" V 4365 5128 50  0000 L CNN
 F 2 "" H 4350 5000 50  0001 C CNN
@@ -230,4 +294,8 @@ Wire Bus Line
 	6800 4400 6800 5250
 Wire Bus Line
 	3900 3500 3900 5300
+Text HLabel 6550 3600 2    50   Input ~ 0
+~WR
+Text HLabel 6550 4300 2    50   Input ~ 0
+~RD
 $EndSCHEMATC
